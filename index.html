@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts/all.css">
+    <script src="fonts/all.js"></script>
+    <script src="script.js"></script>
+    <title>Sign Up</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h2>Sobi Mohammet</h2>
+            <i class="fas fa-2x fa-home"></i>
+        </nav>
+        <div class="hero">
+            <h2>Join The Community Of WebDev Learners Today!</h2>
+        </div>
+        
+    </header>
+    <main>
+        <h1>Sign Up</h1>
+        <form action="#">
+            <label for="name" class="label">Full Name</label><br>
+            <input type="text" class="input-bar" id="name" name="name" minlength="3" maxlength="50" placeholder="John Doe *" required>
+            <br><br>
+            <label for="name" class="label">Email</label><br>
+            <input type="email" class="input-bar" id="email" name="email" minlength="3" maxlength="50" placeholder="john@mail.com *" required>
+            <br><br>
+            <div class="gender">
+                <input type="radio" id="male" name="gender">
+                <label for="male" class="label-show">Male</label>
+                <input type="radio" id="female" name="gender">
+                <label for="female" class="label-show">Female</label>
+            </div>
+            <br>
+            <label for="continent" class="label">Continent</label><br>
+            <select name="continent" id="continent">
+                <option value="0">Choose Your Continent</option>
+                <option value="1">Africa</option>
+                <option value="2">Antartica</option>
+                <option value="3">Asia</option>
+                <option value="4">Australia</option>
+                <option value="5">Europe</option>
+                <option value="6">North America</option>
+                <option value="7">South America</option>
+            </select>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>
