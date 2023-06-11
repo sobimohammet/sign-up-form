@@ -76,6 +76,10 @@ input[type="radio"] {
     color: rgb(12, 207, 12);
     width: 300px;
     font-family: monospace;
+    transition: all 0.7s;
+}
+.input-bar:hover {
+    padding: 12px;
 }
 input:focus {
     border: none;
@@ -107,4 +111,44 @@ input::placeholder {
     font-family: monospace;
 }
 
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
 
+#btn {
+    padding: 11px 15px;
+    background-color: rgb(12, 207, 12);
+    border: none;
+    transition: all 1s;
+}
+
+#btn:hover {
+    background-color: rgb(79, 245, 79);
+    padding: 15px 19px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(192, 154, 103);
+}
+
+footer {
+    padding-top: 15vh;
+    padding-bottom: 3vh;
+    color: white;
+}
+
+.copyright {
+    margin-top: 1vh;
+}
+
+@media screen and (min-width:520px) {
+    form {
+        padding: 40px;
+        background-color: rgb(28, 25, 70);
+    }
+}
+#fas, #hero {
+    color: rgb(12, 207, 12);
+}

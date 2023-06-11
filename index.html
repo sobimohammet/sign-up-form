@@ -13,22 +13,22 @@
 <body>
     <header>
         <nav>
-            <h2>Sobi Mohammet</h2>
-            <i class="fas fa-2x fa-home"></i>
+            <a href="pages/home.html"><h2 id="hero">SM</h2></a>
+            <a href="pages/home.html"><i class="fas fa-2x fa-home" id="fas"></i></a>
         </nav>
-        <div class="hero">
+        <!-- <div class="hero">
             <h2>Join The Community Of WebDev Learners Today!</h2>
-        </div>
+        </div> -->
         
     </header>
     <main>
         <h1>Sign Up</h1>
-        <form action="#">
-            <label for="name" class="label">Full Name</label><br>
-            <input type="text" class="input-bar" id="name" name="name" minlength="3" maxlength="50" placeholder="John Doe *" required>
+        <form action="pages/redirect.html">
+            <label for="name" class="label">Full Name*</label><br>
+            <input type="text" class="input-bar" id="name" name="name" minlength="3" maxlength="50" placeholder="John Doe" required>
             <br><br>
-            <label for="name" class="label">Email</label><br>
-            <input type="email" class="input-bar" id="email" name="email" minlength="3" maxlength="50" placeholder="john@mail.com *" required>
+            <label for="name" class="label">Email*</label><br>
+            <input type="email" class="input-bar" id="email" name="email" minlength="3" maxlength="50" placeholder="john@mail.com" required>
             <br><br>
             <div class="gender">
                 <input type="radio" id="male" name="gender">
@@ -48,8 +48,22 @@
                 <option value="6">North America</option>
                 <option value="7">South America</option>
             </select>
+            <br><br>
+            <label for="name" class="label">Create New Password*</label><br>
+            <input type="password" class="input-bar" id="password" name="password" minlength="8" maxlength="30" placeholder="Password@123" required>
+            <br><br>
+            <label for="name" class="label">Confirm Password*</label><br>
+            <input type="password" class="input-bar" id="password-confirm" name="password-confirmation" maxlength="30" placeholder="Password@123" required>
+            <br><br>
+            <div class="btn-container">
+                <input type="submit" value="Sign Up" id="btn">
+            </div>
         </form>
+        <div class="log-in">Already have an account? <a href="#">Log in here</a></div>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="reference">Find the source code <a href="#">here!</a></div>
+        <div class="copyright">Sobi Mohammet Copyright &copy; 2023</div>
+    </footer>
 </body>
 </html>
